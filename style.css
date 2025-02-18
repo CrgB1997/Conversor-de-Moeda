@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Cor de fundo */
+    border: 5px solid #000; /* Borda do corpo da página */
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: white;
+    background-color: black; /* Cor de fundo do título */
+    border: 2px solid #fff; /* Borda do título */
+    padding: 10px;
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border: 1px solid #ccc; /* Borda do div */
+    padding: 10px;
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+select, input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 10px;
+    border: 1px solid #ccc; /* Borda do select e input */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: rgb(11, 211, 95); /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: 1px solid #ccc; /* Borda do botão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a52a2a; /* Cor de fundo do botão ao passar o mouse */
+}
+
+#tax_info {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #333; /* Cor do texto */
+    border: 1px solid #ccc; /* Borda do tax_info */
+    padding: 10px;
+    border-radius: 4px; /* Bordas arredondadas */
+}
